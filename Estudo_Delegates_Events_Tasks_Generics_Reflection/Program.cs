@@ -104,7 +104,7 @@ namespace Estudo_Delegates_Events_Tasks_Generics_Reflection
 			List<Fornecedor> listaFitradaFornecedores = FiltrarObjeto<Fornecedor>.Executa(listaFornecedores, IdadeMinima);
 			impFornecedores(listaFitradaFornecedores);
 			
-			
+			/*
 			//3ª Parte
 			// Define a estrutura da classe generica
 			Dictionary<string, Type> dicionario = new Dictionary<string, Type>();
@@ -148,7 +148,8 @@ namespace Estudo_Delegates_Events_Tasks_Generics_Reflection
 				//new Generica() { Id = 4, Nome = "Dunha Costa", Email = "dunha@gmail.com", Idade = 12 },
 				//new Generica() { Id = 5, Nome = "Nhola Bueno", Email = "nhola@hotmail.com", Idade = 31 },
 				//new Generica() { Id = 6, Nome = "Beltrano Dias", Email = "beltrano@gmail.com", Idade = 44 }
-			
+			*/
+
 			Console.ReadLine();
 		}
 
